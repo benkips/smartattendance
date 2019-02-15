@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/cvstude"
+        android:elevation="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/book"/>
+    <TextView
+        android:id="@+id/tvunit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bit"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        />
+    <TextView
+                android:id="@+id/tvlecz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr meme kariuki"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
